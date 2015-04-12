@@ -2,4 +2,13 @@ How is the staging area different from the working directory and the repository?
 
     The staging area provides the user to save only the file that he believes
     are necessary to commit. This way, the user makes his commit more meaning-
-    ful. 
+    ful. I like being able to choose my own path.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    For every staging area created by git add [file], I can make a commit. 
+    Each time I make a commit to a staged file, the staging area clear up,
+    allowing me the opportunity to make more logical commits rather than
+    simply commiting everytime I make a change to the code.
+
+
