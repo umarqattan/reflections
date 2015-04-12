@@ -39,4 +39,15 @@ How do the diagrams help you visualize the branch structure?
                                                                      V
     [first_commit] --> [second_commit] --> [third_commit] --> [latest_commit]
     		              
-                         
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+     When two branches are merged, a new branch is created whose outward edges point in
+     the direction between the two branches that were merged. That is, the new branch
+     can traverse through either of the old, distinct branches. The differences between
+     two separate branches and a combined branch is that both branches can be 
+     traversed and they are differentiated by timestamps. Since branches formed by mer-
+     ging two branches are the latest commits to the git repository, they are drawn as
+     a node whose outward edges point to the previous two children nodes distinguished
+     by branches.
+
+                        
