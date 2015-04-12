@@ -50,4 +50,10 @@ What is the result of merging two branches together? Why do we represent it in t
      a node whose outward edges point to the previous two children nodes distinguished
      by branches.
 
-                        
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+     Automatic merging may have problems when innappropriate things occur, such as
+     making an artificially intelligent resolution that was not intended. However,
+     at times, it is quite convenient to have an automatic merge resolver. Manually 
+     merging may seem annoying at first, but doing so makes both people working on
+     separate branches collaborate more, making sure conflicts are resolved as intended.
