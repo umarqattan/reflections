@@ -11,4 +11,19 @@ How can you use the staging area to make sure you have one commit per logical ch
     allowing me the opportunity to make more logical commits rather than
     simply commiting everytime I make a change to the code.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+     
+     Branches are a great tool to experiment with new changes to a working project.
+     If a user wanted to make a significant change to the mechanics of a game, for 
+     example, he could make a new branch indicating the change with the following:
+     	      
+	      git branch [new_branch_name]
+     
+     Then he can checkout the new branch with the following:
 
+     	      git checkout [new_branch_name]
+     
+     Afterward, he can make changes to a file and add any logical changes by adding
+     the file to the staging area and committing it.
+
+ 
