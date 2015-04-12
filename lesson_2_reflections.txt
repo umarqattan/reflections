@@ -26,4 +26,17 @@ What are some situations when branches would be helpful in keeping your history 
      Afterward, he can make changes to a file and add any logical changes by adding
      the file to the staging area and committing it.
 
- 
+How do the diagrams help you visualize the branch structure?
+
+    Drawing a diagram of the repository history makes it easy to visualize branching.
+    It helps by knowing that each new branch created can be independent of the curr-
+    ent path of the project. If a new branch is created and checked out, it has no
+    effect on the project, that is, unless it's merged. On the diagram, a new branch
+    that hasn't been merged is indicated by a source node, that is, with 0 arrows 
+    pointing to it. 
+                                                               [first_branch]
+                                                                     |
+                                                                     V
+    [first_commit] --> [second_commit] --> [third_commit] --> [latest_commit]
+    		              
+                         
