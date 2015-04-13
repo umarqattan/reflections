@@ -22,3 +22,10 @@ What is the benefit of having a copy of the last known state of the remote store
   affect the local changes. That is, nothing will be affected unless a fast-forward
   merge occurs (or some other type of merge).
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+  It would be quite difficult to collaborate without Github. I only say this because
+  I've just learned how to use most of the tools Github has to offer. To get work do-
+  ne, I'd probably have to email and call my partner back and forth, or I'd have to 
+  meet with him/her in person to make collaboration smooth. This may be inconvenient
+  since we may have our own plans.
