@@ -2,3 +2,9 @@ When would you want to use a remote repository rather than keeping all your work
 
   I'd use a remote repository when I find it necessary to make a save point (checkpoint)
   of my progress.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+  There might be a reason to pull manually as opposed to Git automatically keeping the
+  user up-to-date. Any pull request will be diagrammed in a logical fashion, so the
+  workflow is neat and meaningful. 
