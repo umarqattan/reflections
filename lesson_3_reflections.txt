@@ -8,3 +8,9 @@ Why might you want to always pull changes manually rather than having Git automa
   There might be a reason to pull manually as opposed to Git automatically keeping the
   user up-to-date. Any pull request will be diagrammed in a logical fashion, so the
   workflow is neat and meaningful. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+  Fork  : Cloning another's repository on GitHub
+  Clone : Cloning a repository (Either on github or elsewhere) to a local machine
+  Branch: A commit whose parents are previous commits. 
