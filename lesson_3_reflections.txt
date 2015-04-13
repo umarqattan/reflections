@@ -14,3 +14,11 @@ Describe the differences between forks, clones, and branches. When would you use
   Fork  : Cloning another's repository on GitHub
   Clone : Cloning a repository (Either on github or elsewhere) to a local machine
   Branch: A commit whose parents are previous commits. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+  It's beneficial to have a copy of the last known state of the remote stored locally
+  because any new changes that happen remotely can be fetched at any time and will not
+  affect the local changes. That is, nothing will be affected unless a fast-forward
+  merge occurs (or some other type of merge).
+
