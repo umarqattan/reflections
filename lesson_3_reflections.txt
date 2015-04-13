@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  I'd use a remote repository when I find it necessary to make a save point (checkpoint)
+  of my progress.
